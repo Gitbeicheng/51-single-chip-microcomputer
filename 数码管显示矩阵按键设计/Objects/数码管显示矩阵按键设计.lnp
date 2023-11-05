@@ -1,0 +1,6 @@
+".\Objects\main.obj",
+".\Objects\Delay.obj",
+".\Objects\key.obj",
+".\Objects\shumaguan.obj" 
+TO ".\Objects\数码管显示矩阵按键设计" 
+PRINT(".\Listings\数码管显示矩阵按键设计.m51") RAMSIZE(256) 
