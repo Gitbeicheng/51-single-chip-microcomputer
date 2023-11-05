@@ -1,0 +1,59 @@
+C51 COMPILER V9.57.0.0   KEY                                                               11/04/2023 18:57:02 PAGE 1   
+
+
+C51 COMPILER V9.57.0.0, COMPILATION OF MODULE KEY
+OBJECT MODULE PLACED IN .\Objects\key.obj
+COMPILER INVOKED BY: D:\software\keil\C51\BIN\C51.EXE key.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings
+                    -\key.lst) TABS(2) OBJECT(.\Objects\key.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          #include"Delay.h"
+   3          int key()
+   4          {
+   5   1        unsigned int KeyNumber;
+   6   1        P1=0XFF;
+   7   1        P1_0=0;
+   8   1        if(P1_4==0){KeyNumber=0;}
+   9   1        if(P1_5==0){KeyNumber=4;}
+  10   1        if(P1_6==0){KeyNumber=8;}
+  11   1        if(P1_7==0){KeyNumber=12;}
+  12   1        
+  13   1        P1=0XFF;
+  14   1        P1_1=0;
+  15   1        if(P1_4==0){KeyNumber=1;}
+  16   1        if(P1_5==0){KeyNumber=5;}
+  17   1        if(P1_6==0){KeyNumber=9;}
+  18   1        if(P1_7==0){KeyNumber=13;}
+  19   1        
+  20   1        P1=0XFF;
+  21   1        P1_2=0;
+  22   1        if(P1_4==0){KeyNumber=2;}
+  23   1        if(P1_5==0){KeyNumber=6;}
+  24   1        if(P1_6==0){KeyNumber=10;}
+  25   1        if(P1_7==0){KeyNumber=14;}
+  26   1        
+  27   1        P1=0XFF;
+  28   1        P1_3=0;
+  29   1        if(P1_4==0){KeyNumber=3;}
+  30   1        if(P1_5==0){KeyNumber=7;}
+  31   1        if(P1_6==0){KeyNumber=11;}
+  32   1        if(P1_7==0){KeyNumber=15;}
+  33   1        
+  34   1        return KeyNumber;
+  35   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    132    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
